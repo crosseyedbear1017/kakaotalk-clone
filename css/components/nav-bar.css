@@ -1,0 +1,45 @@
+.nav {
+  padding: 20px 40px;
+  background-color: #f9f9fa;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  font-size: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__nontification,
+.nav__dot {
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.nav__nontification {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  bottom: 17px;
+  left: 17px;
+}
+
+.nav__dot {
+  width: 6px;
+  height: 6px;
+  bottom: 28px;
+  left: 30px;
+}
